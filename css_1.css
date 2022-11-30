@@ -1,0 +1,127 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: rgb(57, 74, 74);
+
+}
+body::-webkit-scrollbar {
+    width: 12px; 
+  }
+  
+  body::-webkit-scrollbar-track {
+    background: rgb(57, 74, 74); 
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background-color: orange;
+    border-radius: 10px; 
+    border: 3px solid  rgb(57, 74, 74);
+  }
+
+div{
+    background-color: rgb(30, 37, 37);
+    margin-top: -1.2%;
+    margin-left: 15%;
+    margin-right: 15%;
+
+}
+
+
+
+a {
+    text-decoration: none;
+}
+
+header {
+    width: 100%;
+    text-align: center;
+    background-color: rgb(57, 74, 74);
+    padding-top: 0.5%;
+    margin: 0%;
+    
+}
+
+.titre {
+    color: orange;
+}
+
+
+
+section {
+    margin-top: 0%;
+    margin-left: 2%;
+    margin-right: 10%;
+}
+
+.section-1{
+    border-bottom: solid orange;
+    padding-bottom: 5%;
+}
+
+p {
+    padding-top:4%;
+    margin-top: 5%;
+    margin-left: 3%;
+    font-weight: 200;
+    line-height: 150%;
+}
+
+h2 {
+    text-align: left;
+    color: orange;
+}
+
+.wikipedia {
+    color: rgb(169, 96, 96)
+}
+
+.art1 {
+    width: 100%;
+    text-align:justify;
+    display: inline-flex;
+}
+
+h3{
+    color: white;
+}
+
+
+.image-1 {
+    width: 20vw;
+    padding-top: 2%;
+}
+
+
+
+.art2{
+    width: 100%;
+
+}
+
+.image{
+    width: 10vw;
+    margin-top: 4%;
+}
+ 
+.texte{
+    margin-bottom: 4%;
+}
+
+
+
+footer {
+    bottom:100%;
+    width: 100%;
+    text-align: center;
+    background-color: rgb(57, 74, 74);
+    padding-bottom: 0.5%;
+    padding-top: 0.7%;
+    clear: both;
+}
+
+.email {
+    color: orange;
+}
